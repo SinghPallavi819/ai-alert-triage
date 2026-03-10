@@ -1,0 +1,35 @@
+[
+  {
+    "alert_name": "Multiple Failed Login Attempts",
+    "source": "Splunk",
+    "timestamp": "2026-03-07T10:15:00Z",
+    "user": "jsmith",
+    "src_ip": "185.220.101.45",
+    "destination_host": "vpn.company.com",
+    "event_count": 25,
+    "status": "failed",
+    "notes": "25 failed login attempts detected within 10 minutes"
+  },
+  {
+    "alert_name": "Repeated Failed Login Attempts",
+    "source": "Splunk",
+    "timestamp": "2026-03-07T11:00:00Z",
+    "user": "maria",
+    "src_ip": "10.0.0.15",
+    "destination_host": "vpn.company.com",
+    "event_count": 12,
+    "status": "failed",
+    "notes": "12 failed login attempts detected within 15 minutes"
+  },
+  {
+    "alert_name": "Single Failed Login Attempt",
+    "source": "Splunk",
+    "timestamp": "2026-03-07T11:30:00Z",
+    "user": "alex",
+    "src_ip": "192.168.1.20",
+    "destination_host": "vpn.company.com",
+    "event_count": 3,
+    "status": "failed",
+    "notes": "3 failed login attempts detected"
+  }
+]
