@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-ABUSEIPDB_API_KEY = os.getenv("2d4f2d8d7e4fe86608f50c509ff4bbd709dbcf1f60beae59a7dc3378fbd0979a8a4aa191a670dca2")
+ABUSEIPDB_API_KEY = os.getenv("ABUSEIPDB_API_KEY")
 
 
 def get_ip_reputation(ip_address):
