@@ -36,7 +36,7 @@ LLM Output: Monitor — internal IP with no abuse history. No immediate action r
 - JSON — alert ingestion and output
 
 ## Project Structure
-
+```text
 ai-alert-triage/
 ├── src/
 │   ├── main.py          # Main pipeline runner
@@ -48,7 +48,7 @@ ai-alert-triage/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
+```
 ## How To Run
 
 1. Install dependencies
